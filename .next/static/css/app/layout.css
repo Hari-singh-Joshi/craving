@@ -2583,10 +2583,6 @@ html {
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity, 1));
 }
-.hover\:text-orange-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(194 65 12 / var(--tw-text-opacity, 1));
-}
 .hover\:text-pink-600:hover {
   --tw-text-opacity: 1;
   color: rgb(219 39 119 / var(--tw-text-opacity, 1));
