@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/img/logo.jpg",
   },
+ 
 };
 
 // Root layout

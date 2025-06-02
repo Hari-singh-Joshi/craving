@@ -19,7 +19,12 @@ export default function AboutSection() {
   ]
 
   return (
-    <section id="about" className="py-24 bg-background" ref={ref}>
+    <section
+  id="about"
+  ref={ref}
+  className="py-24 bg-background overflow-x-hidden"
+>
+
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div

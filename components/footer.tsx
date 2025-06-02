@@ -180,27 +180,37 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           className="py-8"
         >
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-2 text-gray-400">
-              <span>&copy; {new Date().getFullYear()} Craving Hut. All rights reserved.</span>
-              <span className="hidden md:inline">•</span>
-              <span className="flex items-center gap-1">
-                Designed By <Heart className="h-4 w-4 text-red-500" /> <a href="https://my-portfolio-i81d.vercel.app/">Hari Singh Joshi</a>
-              </span>
-            </div>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left px-4">
+  <div className="flex flex-col md:flex-row items-center gap-2 text-gray-400">
+    <span>&copy; {new Date().getFullYear()} Craving Hut. All rights reserved.</span>
+    <span className="hidden md:inline">•</span>
+    <span className="flex items-center gap-1">
+      Designed By
+      <Heart className="h-4 w-4 text-red-500" />
+      <a
+        href="https://my-portfolio-i81d.vercel.app/"
+        className="hover:underline text-orange-600"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hari Singh Joshi
+      </a>
+    </span>
+  </div>
 
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button
-                onClick={scrollToTop}
-                variant="outline"
-                size="sm"
-                className="border-gray-700 hover:bg-gray-800 text-gray-400 hover:text-white"
-              >
-                <ArrowUp className="h-4 w-4 mr-2" />
-                Back to Top
-              </Button>
-            </motion.div>
-          </div>
+  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+    <Button
+      onClick={scrollToTop}
+      variant="outline"
+      size="sm"
+      className="border-gray-700 hover:bg-gray-800 text-gray-400 hover:text-white"
+    >
+      <ArrowUp className="h-4 w-4 mr-2" />
+      Back to Top
+    </Button>
+  </motion.div>
+</div>
+
         </motion.div>
       </div>
     </footer>

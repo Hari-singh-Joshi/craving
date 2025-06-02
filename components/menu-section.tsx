@@ -140,7 +140,12 @@ export default function MenuSection() {
   const currentItems = menuItems[activeTab as keyof typeof menuItems] || []
 
   return (
-    <section id="menu" className="py-24 bg-muted/30" ref={ref}>
+    <section
+    id="menu"
+    ref={ref}
+    className="py-24 bg-muted/30 overflow-x-hidden"
+  >
+  
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
