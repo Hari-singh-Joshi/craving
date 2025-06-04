@@ -188,7 +188,7 @@ export default function Footer() {
       Designed By
       <Heart className="h-4 w-4 text-red-500" />
       <a
-        href="https://my-portfolio-i81d.vercel.app/"
+        href="https://portfolio-hari-singh.vercel.app/"
         className="hover:underline text-orange-600"
         target="_blank"
         rel="noopener noreferrer"
